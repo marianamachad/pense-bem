@@ -121,7 +121,8 @@ Exemplo:
 *(Adicionar screenshot)*
 
 ### Resultado
-*(Adicionar screenshot)*
+<img width="738" height="1600" alt="resultado" src="https://github.com/user-attachments/assets/53bce535-21cd-4dbe-8765-38db2836c619" />
+
 
 ### Ranking
 *(Adicionar screenshot)*
