@@ -112,20 +112,28 @@ Exemplo:
 ## 📸 Telas do Aplicativo
 
 ### Tela Inicial
-*(Adicionar screenshot)*
+
+![Tela Inicial](screenshots/tela_inicial.jpeg)
 
 ### Seleção de Programas
-*(Adicionar screenshot)*
+
+![Seleção de Programas](screenshots/seleção_programas.jpeg)
 
 ### Quiz
-*(Adicionar screenshot)*
+
+![Pergunta 1](screenshots/perguntas_penseBem.jpeg)
+
+![Pergunta 2](screenshots/perguntas_penseBem2.jpeg)
+
+![Pergunta 3](screenshots/perguntas_penseBem3.jpeg)
 
 ### Resultado
-<img width="738" height="1600" alt="resultado" src="https://github.com/user-attachments/assets/53bce535-21cd-4dbe-8765-38db2836c619" />
 
+![Resultado](screenshots/resultado.jpeg)
 
 ### Ranking
-*(Adicionar screenshot)*
+
+![Ranking](screenshots/ranking.jpeg)
 
 ---
 
