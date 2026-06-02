@@ -109,34 +109,6 @@ Exemplo:
 
 ---
 
-## 📸 Telas do Aplicativo
-
-### Tela Inicial
-
-![Tela Inicial](screenshots/tela_inicial.jpeg)
-
-### Seleção de Programas
-
-![Seleção de Programas](screenshots/seleção_programas.jpeg)
-
-### Quiz
-
-![Pergunta 1](screenshots/perguntas_penseBem.jpeg)
-
-![Pergunta 2](screenshots/perguntas_penseBem2.jpeg)
-
-![Pergunta 3](screenshots/perguntas_penseBem3.jpeg)
-
-### Resultado
-
-![Resultado](screenshots/resultado.jpeg)
-
-### Ranking
-
-![Ranking](screenshots/ranking.jpeg)
-
----
-
 ## 🎓 Contexto Acadêmico
 
 Projeto desenvolvido como atividade prática da disciplina de Desenvolvimento Mobile da Universidade La Salle.
