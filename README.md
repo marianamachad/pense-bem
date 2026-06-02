@@ -1,11 +1,147 @@
-# Sample Snack app
+# 📱 Pense Bem Mobile
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Aplicativo mobile inspirado no clássico brinquedo eletrônico **Pense Bem**, recriando digitalmente a experiência do encarte especial **Disney: Rumo às Estrelas**.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Projeto desenvolvido para a disciplina de **Desenvolvimento Mobile** da Universidade La Salle.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 👥 Integrantes
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- Mariana Machado Macedo
+- Victoria Lacerda
+- Rodrigo Veiga
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## 🎯 Sobre o Projeto
+
+O objetivo do projeto foi modernizar a experiência do tradicional Pense Bem, transformando as regras e desafios do brinquedo físico em uma aplicação mobile interativa.
+
+O aplicativo apresenta perguntas de múltipla escolha distribuídas em diferentes programas temáticos, sistema de pontuação progressiva, feedback visual para respostas corretas e incorretas e armazenamento local de pontuações.
+
+---
+
+## 🚀 Funcionalidades
+
+- Seleção de programas de perguntas
+- Sistema de quiz interativo
+- Pontuação baseada no número de tentativas
+- Feedback visual para respostas
+- Histórico de pontuações
+- Armazenamento persistente utilizando AsyncStorage
+- Interface adaptada para dispositivos móveis
+- Programa especial de revisão com questões aleatórias
+
+---
+
+## 🏆 Sistema de Pontuação
+
+Cada questão pode valer até **3 pontos**.
+
+| Tentativa | Pontuação |
+|------------|------------|
+| 1ª tentativa | 3 pontos |
+| 2ª tentativa | 2 pontos |
+| 3ª tentativa | 1 ponto |
+| Após 3 erros | 0 pontos |
+
+Pontuação máxima por programa:
+
+**150 pontos**
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- React Native
+- Expo
+- JavaScript (ES6+)
+- AsyncStorage
+- React Hooks
+  - useState
+  - useEffect
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+assets/
+ ├── imagens
+ └── background
+
+data/
+ ├── programa1
+ ├── programa2
+ ├── programa3
+ ├── programa4
+ ├── programa5
+ ├── programa6
+ └── questions
+
+screens/
+ ├── HomeScreen
+ ├── InstructionsScreen
+ ├── BookSelectScreen
+ ├── QuizScreen
+ ├── ResultScreen
+ └── ScoreScreen
+
+App.js
+```
+
+---
+
+## 💾 Persistência de Dados
+
+As pontuações são armazenadas localmente no dispositivo utilizando AsyncStorage.
+
+Exemplo:
+
+```json
+[
+  {
+    "book": "Programa 1",
+    "score": 86,
+    "date": "2026-05-28T14:32:00.000Z"
+  }
+]
+```
+
+---
+
+## 📸 Telas do Aplicativo
+
+### Tela Inicial
+*(Adicionar screenshot)*
+
+### Seleção de Programas
+*(Adicionar screenshot)*
+
+### Quiz
+*(Adicionar screenshot)*
+
+### Resultado
+*(Adicionar screenshot)*
+
+### Ranking
+*(Adicionar screenshot)*
+
+---
+
+## 🎓 Contexto Acadêmico
+
+Projeto desenvolvido como atividade prática da disciplina de Desenvolvimento Mobile da Universidade La Salle.
+
+O trabalho teve como foco a aplicação de conceitos de:
+
+- Desenvolvimento Mobile
+- Gerenciamento de Estado
+- Componentização
+- Persistência Local de Dados
+- Experiência do Usuário (UX)
+
+---
+
+## 📜 Licença
+
+Projeto desenvolvido para fins acadêmicos e educacionais.
